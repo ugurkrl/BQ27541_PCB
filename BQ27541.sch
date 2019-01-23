@@ -6122,6 +6122,9 @@ TEST_POINT
 </library>
 </libraries>
 <attributes>
+<attribute name="CNAME" value="Fuel Gauge Board"/>
+<attribute name="CREVISION" value="1A"/>
+<attribute name="DESIGNER" value="µgurkrcl"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -6130,7 +6133,11 @@ TEST_POINT
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
+<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device="">
+<attribute name="CNAME" value=""/>
+<attribute name="CREVISION" value=""/>
+<attribute name="DESIGNER" value=""/>
+</part>
 <part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.47uF"/>
 <part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:37413/1" value="0.1uF"/>
@@ -6174,6 +6181,9 @@ TEST_POINT
 <attribute name="DRAWING_NAME" x="186.69" y="16.51" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="186.69" y="11.43" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="200.66" y="6.35" size="2.54" layer="94" font="vector"/>
+<attribute name="CNAME" x="186.69" y="21.59" size="2.54" layer="94" font="vector"/>
+<attribute name="CREVISION" x="240" y="6.25" size="2.54" layer="94" font="vector"/>
+<attribute name="DESIGNER" x="231.34" y="11.43" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="C1" gate="G$1" x="142.24" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="139.319" y="113.284" size="1.778" layer="95" font="vector" rot="R90"/>
